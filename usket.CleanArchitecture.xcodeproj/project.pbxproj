@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C8B1810282D448C00AC728A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8B180F282D448C00AC728A /* AppDelegate.swift */; };
+		4C8B1812282D448C00AC728A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8B1811282D448C00AC728A /* SceneDelegate.swift */; };
+		4C8B1814282D448C00AC728A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8B1813282D448C00AC728A /* ViewController.swift */; };
+		4C8B1817282D448C00AC728A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8B1815282D448C00AC728A /* Main.storyboard */; };
+		4C8B1819282D448E00AC728A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C8B1818282D448E00AC728A /* Assets.xcassets */; };
+		4C8B181C282D448E00AC728A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8B181A282D448E00AC728A /* LaunchScreen.storyboard */; };
+		4C8B1827282D448F00AC728A /* usket_CleanArchitectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8B1826282D448F00AC728A /* usket_CleanArchitectureTests.swift */; };
+		4C8B1831282D448F00AC728A /* usket_CleanArchitectureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8B1830282D448F00AC728A /* usket_CleanArchitectureUITests.swift */; };
+		4C8B1833282D448F00AC728A /* usket_CleanArchitectureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8B1832282D448F00AC728A /* usket_CleanArchitectureUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C8B1823282D448F00AC728A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C8B1804282D448C00AC728A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C8B180B282D448C00AC728A;
+			remoteInfo = usket.CleanArchitecture;
+		};
+		4C8B182D282D448F00AC728A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C8B1804282D448C00AC728A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C8B180B282D448C00AC728A;
+			remoteInfo = usket.CleanArchitecture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C8B180C282D448C00AC728A /* usket.CleanArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = usket.CleanArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C8B180F282D448C00AC728A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C8B1811282D448C00AC728A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4C8B1813282D448C00AC728A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C8B1816282D448C00AC728A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C8B1818282D448E00AC728A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C8B181B282D448E00AC728A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C8B181D282D448E00AC728A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C8B1822282D448F00AC728A /* usket.CleanArchitectureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = usket.CleanArchitectureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C8B1826282D448F00AC728A /* usket_CleanArchitectureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usket_CleanArchitectureTests.swift; sourceTree = "<group>"; };
+		4C8B182C282D448F00AC728A /* usket.CleanArchitectureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = usket.CleanArchitectureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C8B1830282D448F00AC728A /* usket_CleanArchitectureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usket_CleanArchitectureUITests.swift; sourceTree = "<group>"; };
+		4C8B1832282D448F00AC728A /* usket_CleanArchitectureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usket_CleanArchitectureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C8B1809282D448C00AC728A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C8B181F282D448F00AC728A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C8B1829282D448F00AC728A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C8B1803282D448C00AC728A = {
+			isa = PBXGroup;
+			children = (
+				4C8B180E282D448C00AC728A /* usket.CleanArchitecture */,
+				4C8B1825282D448F00AC728A /* usket.CleanArchitectureTests */,
+				4C8B182F282D448F00AC728A /* usket.CleanArchitectureUITests */,
+				4C8B180D282D448C00AC728A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C8B180D282D448C00AC728A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C8B180C282D448C00AC728A /* usket.CleanArchitecture.app */,
+				4C8B1822282D448F00AC728A /* usket.CleanArchitectureTests.xctest */,
+				4C8B182C282D448F00AC728A /* usket.CleanArchitectureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C8B180E282D448C00AC728A /* usket.CleanArchitecture */ = {
+			isa = PBXGroup;
+			children = (
+				4C8B180F282D448C00AC728A /* AppDelegate.swift */,
+				4C8B1811282D448C00AC728A /* SceneDelegate.swift */,
+				4C8B1813282D448C00AC728A /* ViewController.swift */,
+				4C8B1815282D448C00AC728A /* Main.storyboard */,
+				4C8B1818282D448E00AC728A /* Assets.xcassets */,
+				4C8B181A282D448E00AC728A /* LaunchScreen.storyboard */,
+				4C8B181D282D448E00AC728A /* Info.plist */,
+			);
+			path = usket.CleanArchitecture;
+			sourceTree = "<group>";
+		};
+		4C8B1825282D448F00AC728A /* usket.CleanArchitectureTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C8B1826282D448F00AC728A /* usket_CleanArchitectureTests.swift */,
+			);
+			path = usket.CleanArchitectureTests;
+			sourceTree = "<group>";
+		};
+		4C8B182F282D448F00AC728A /* usket.CleanArchitectureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C8B1830282D448F00AC728A /* usket_CleanArchitectureUITests.swift */,
+				4C8B1832282D448F00AC728A /* usket_CleanArchitectureUITestsLaunchTests.swift */,
+			);
+			path = usket.CleanArchitectureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C8B180B282D448C00AC728A /* usket.CleanArchitecture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C8B1836282D448F00AC728A /* Build configuration list for PBXNativeTarget "usket.CleanArchitecture" */;
+			buildPhases = (
+				4C8B1808282D448C00AC728A /* Sources */,
+				4C8B1809282D448C00AC728A /* Frameworks */,
+				4C8B180A282D448C00AC728A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = usket.CleanArchitecture;
+			productName = usket.CleanArchitecture;
+			productReference = 4C8B180C282D448C00AC728A /* usket.CleanArchitecture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C8B1821282D448F00AC728A /* usket.CleanArchitectureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C8B1839282D448F00AC728A /* Build configuration list for PBXNativeTarget "usket.CleanArchitectureTests" */;
+			buildPhases = (
+				4C8B181E282D448F00AC728A /* Sources */,
+				4C8B181F282D448F00AC728A /* Frameworks */,
+				4C8B1820282D448F00AC728A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C8B1824282D448F00AC728A /* PBXTargetDependency */,
+			);
+			name = usket.CleanArchitectureTests;
+			productName = usket.CleanArchitectureTests;
+			productReference = 4C8B1822282D448F00AC728A /* usket.CleanArchitectureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C8B182B282D448F00AC728A /* usket.CleanArchitectureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C8B183C282D448F00AC728A /* Build configuration list for PBXNativeTarget "usket.CleanArchitectureUITests" */;
+			buildPhases = (
+				4C8B1828282D448F00AC728A /* Sources */,
+				4C8B1829282D448F00AC728A /* Frameworks */,
+				4C8B182A282D448F00AC728A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C8B182E282D448F00AC728A /* PBXTargetDependency */,
+			);
+			name = usket.CleanArchitectureUITests;
+			productName = usket.CleanArchitectureUITests;
+			productReference = 4C8B182C282D448F00AC728A /* usket.CleanArchitectureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C8B1804282D448C00AC728A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					4C8B180B282D448C00AC728A = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					4C8B1821282D448F00AC728A = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 4C8B180B282D448C00AC728A;
+					};
+					4C8B182B282D448F00AC728A = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 4C8B180B282D448C00AC728A;
+					};
+				};
+			};
+			buildConfigurationList = 4C8B1807282D448C00AC728A /* Build configuration list for PBXProject "usket.CleanArchitecture" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C8B1803282D448C00AC728A;
+			productRefGroup = 4C8B180D282D448C00AC728A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C8B180B282D448C00AC728A /* usket.CleanArchitecture */,
+				4C8B1821282D448F00AC728A /* usket.CleanArchitectureTests */,
+				4C8B182B282D448F00AC728A /* usket.CleanArchitectureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C8B180A282D448C00AC728A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C8B181C282D448E00AC728A /* LaunchScreen.storyboard in Resources */,
+				4C8B1819282D448E00AC728A /* Assets.xcassets in Resources */,
+				4C8B1817282D448C00AC728A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C8B1820282D448F00AC728A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C8B182A282D448F00AC728A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C8B1808282D448C00AC728A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C8B1814282D448C00AC728A /* ViewController.swift in Sources */,
+				4C8B1810282D448C00AC728A /* AppDelegate.swift in Sources */,
+				4C8B1812282D448C00AC728A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C8B181E282D448F00AC728A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C8B1827282D448F00AC728A /* usket_CleanArchitectureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C8B1828282D448F00AC728A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C8B1833282D448F00AC728A /* usket_CleanArchitectureUITestsLaunchTests.swift in Sources */,
+				4C8B1831282D448F00AC728A /* usket_CleanArchitectureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C8B1824282D448F00AC728A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C8B180B282D448C00AC728A /* usket.CleanArchitecture */;
+			targetProxy = 4C8B1823282D448F00AC728A /* PBXContainerItemProxy */;
+		};
+		4C8B182E282D448F00AC728A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C8B180B282D448C00AC728A /* usket.CleanArchitecture */;
+			targetProxy = 4C8B182D282D448F00AC728A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C8B1815282D448C00AC728A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C8B1816282D448C00AC728A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C8B181A282D448E00AC728A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C8B181B282D448E00AC728A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C8B1834282D448F00AC728A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C8B1835282D448F00AC728A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C8B1837282D448F00AC728A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46QF7GBZH7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = usket.CleanArchitecture/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "usKet.usket-CleanArchitecture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C8B1838282D448F00AC728A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46QF7GBZH7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = usket.CleanArchitecture/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "usKet.usket-CleanArchitecture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C8B183A282D448F00AC728A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46QF7GBZH7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "usKet.usket-CleanArchitectureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/usket.CleanArchitecture.app/usket.CleanArchitecture";
+			};
+			name = Debug;
+		};
+		4C8B183B282D448F00AC728A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46QF7GBZH7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "usKet.usket-CleanArchitectureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/usket.CleanArchitecture.app/usket.CleanArchitecture";
+			};
+			name = Release;
+		};
+		4C8B183D282D448F00AC728A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46QF7GBZH7;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "usKet.usket-CleanArchitectureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = usket.CleanArchitecture;
+			};
+			name = Debug;
+		};
+		4C8B183E282D448F00AC728A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46QF7GBZH7;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "usKet.usket-CleanArchitectureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = usket.CleanArchitecture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C8B1807282D448C00AC728A /* Build configuration list for PBXProject "usket.CleanArchitecture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C8B1834282D448F00AC728A /* Debug */,
+				4C8B1835282D448F00AC728A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C8B1836282D448F00AC728A /* Build configuration list for PBXNativeTarget "usket.CleanArchitecture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C8B1837282D448F00AC728A /* Debug */,
+				4C8B1838282D448F00AC728A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C8B1839282D448F00AC728A /* Build configuration list for PBXNativeTarget "usket.CleanArchitectureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C8B183A282D448F00AC728A /* Debug */,
+				4C8B183B282D448F00AC728A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C8B183C282D448F00AC728A /* Build configuration list for PBXNativeTarget "usket.CleanArchitectureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C8B183D282D448F00AC728A /* Debug */,
+				4C8B183E282D448F00AC728A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C8B1804282D448C00AC728A /* Project object */;
+}
