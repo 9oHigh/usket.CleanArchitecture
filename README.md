@@ -43,12 +43,13 @@ iOS에서의 MVVM Clean Architecture와 Modular Architecture를 학습하는 공
     * UI와 관련된 코드로부터 독립적
 
   * MVVM Architecture의 동작원리
-    1. Action들이 View를 통해 들어오게 됨
-    2. View는 ViewModel에게 Action을 전달
-    3. ViewModel이 Model에게 Data를 요청
-    4. Model은 ViewModel에게 요청받은 데이터로 응답
-    5. ViewModel은 응답받은 데이터를 가공하고 저장
-    6. View에서는 ViewModel과의 Binding을 통해 자동으로 갱신
+    * 데이터 흐름
+      1. Action들이 View를 통해 들어오게 됨
+      2. View는 ViewModel에게 Action을 전달
+      3. ViewModel이 Model에게 Data를 요청
+      4. Model은 ViewModel에게 요청받은 데이터로 응답
+      5. ViewModel은 응답받은 데이터를 가공하고 저장
+      6. View에서는 ViewModel과의 Binding을 통해 자동으로 갱신
 
   * MVVM의 장단점
 
