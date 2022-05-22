@@ -3,13 +3,13 @@
 iOS에서의 MVVM Clean Architecture와 Modular Architecture를 학습하는 공간 🔥
 
 ### 목차
- **[1. MVVM이란](#mvvm이란)**
+ **[1. MVVM이란](#1-mvvm이란)**
   
- **[2. Clean Architecture란](#clean-architecture란)**
+ **[2. Clean Architecture란](#2-clean-architecture란)**
  
- **[3. MVVM Clean Architecture란](#mvvm-clean-architecture란)**
+ **[3. MVVM Clean Architecture란](#3-mvvm-clean-architecture란)**
 
-### MVVM이란
+### 1. MVVM이란
   * Model - View - ViewModel로 이루어진 Architecture
     
     <div>
@@ -63,7 +63,7 @@ iOS에서의 MVVM Clean Architecture와 Modular Architecture를 학습하는 공
       * MVC에서 Controller가 비대해진 것처럼 ViewModel이 비대해질 수 있음
       * 데이터 바인딩으로 인한 메모리 소모가 심한편
 
-### Clean Architecture란
+### 2. Clean Architecture란
   * 기존의 아키텍처들
 
     * 공통점
@@ -141,7 +141,7 @@ iOS에서의 MVVM Clean Architecture와 Modular Architecture를 학습하는 공
     * 원의 개수
       * Dependency Rule이 안쪽을 향하고 갈수록 추상화 수준이 증가하면 개수는 상관없음
 
-### MVVM Clean Architecture란
+### 3. MVVM Clean Architecture란
   * MVVM과 Clean Architecture
     * Presentation Layer : View + ViewModel
     * Domain Layer : Use case + Model
