@@ -1,6 +1,7 @@
 # MVVM Clean Architecture & Modular Architecture
 
-iOS에서의 MVVM Clean Architecture와 Modular Architecture를 학습하는 공간 🔥
+MVVM Clean Architecture와 Modular Architecture를 학습하는 공간 🔥
+
 
 ### 목차
  **[1. MVVM이란](#1-mvvm이란)**
