@@ -17,7 +17,7 @@ MVVM Clean Architecture와 Modular Architecture를 학습하는 공간 🔥
       <img src="https://user-images.githubusercontent.com/53691249/169693805-624069bf-cb52-4100-ab44-0b8548b6e8bd.png"  width="400" height="300"/>                                                                                                                                </div>
 
   * Model 
-    * Model은 데이터와 관련된 코드를 담고 있음
+    * Model은 데이터와 관련된 코드를 담고있음
     * 데이터를 담아두기 위한 구조체, 네트워크 로직, JSON parsing 코드 등이 담겨있음
     * Model은 View와 ViewModel을 전혀 신경쓰지 않아도 됨. 어떻게 데이터를 가지고 있을지에만 초점을 두고 있으면 됨
     * 예시 - Person이라는 구조체에 init 함수를 이용해 네트워크로 부터 가지고온 JSON 정보를 이용해 파싱할 수 있음
