@@ -1,15 +1,19 @@
-# MVVM Clean Architecture & Modular Architecture
+<div id="user-content-toc">
+  <ul>
+    <summary><h1 style="display: inline-block;">MVVM with Clean Architecture를 학습하는 공간 🔥</h1></summary>
+  </ul>
+</div>
 
-MVVM Clean Architecture와 Modular Architecture를 학습하는 공간 🔥
-
-
+--- 
 ### 목차
+
  **[1. MVVM이란](#1-mvvm이란)**
   
  **[2. Clean Architecture란](#2-clean-architecture란)**
  
- **[3. MVVM Clean Architecture란](#3-mvvm-clean-architecture란)**
+ **[3. MVVM with Clean Architecture란](#3-mvvm-with-clean-architecture란)**
 
+---
 ### 1. MVVM이란
   * Model - View - ViewModel로 이루어진 Architecture
     
@@ -142,7 +146,7 @@ MVVM Clean Architecture와 Modular Architecture를 학습하는 공간 🔥
     * 원의 개수
       * Dependency Rule이 안쪽을 향하고 갈수록 추상화 수준이 증가하면 개수는 상관없음
 
-### 3. MVVM Clean Architecture란
+### 3. MVVM with Clean Architecture란
   * MVVM과 Clean Architecture
     * Presentation Layer : View + ViewModel
     * Domain Layer : Use case + Model
@@ -170,9 +174,8 @@ MVVM Clean Architecture와 Modular Architecture를 학습하는 공간 🔥
       5. UI에 업데이트 : Store -> Repository -> Use case -> ViewModel -> View(UI)
 
 ### 4. 구현
-
+* 추가 예정
 
 #### 참고 URL
 * Clean Architecture: [Zedd0202님의 블로그](https://zeddios.tistory.com/1065)
 * MVVM Clean Architecture : [Oleh Kundinov님의 블로그](https://tech.olx.com/clean-architecture-and-mvvm-on-ios-c9d167d9f5b3)
-* Modular Clean Architecture : [Oleh Kundinov님의 ](https://github.com/kudoleh/iOS-Modular-Architecture)
